@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "jsc": {
+        "parser": {
+            "syntax": "ecmascript",
+            "jsx": true,
+            "dynamicImport": true,
+            "privateMethod": false,
+            "functionBind": true,
+            "exportDefaultFrom": true,
+            "exportNamespaceFrom": false,
+            "decorators": true,
+            "decoratorsBeforeExport": true,
+            "classProperty": true,
+            "nullishCoalescing": true,
+            "optionalChaining": true,
+            "topLevelAwait": false,
+            "importMeta": true
+        },
+        "transform": {
+            "legacyDecorator": true,
+            "react": {
+                "runtime": "automatic",
+                "development": true,
+                "pragma": "React.createElement",
+                "pragmaFrag": "React.Fragment",
+                "useBuiltins": true,
+                "throwIfNamespace": true
+            }
+        },
+        "target": "es5",
+        "loose": true,
+        "externalHelpers": false
+    },
+    "minify": false
+}
+
